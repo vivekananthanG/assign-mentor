@@ -37,9 +37,9 @@ const student=[{
 "mentor_id":""
 }];
 
-const MONGO_URL="mongodb://localhost";//if port is defalut
+//const MONGO_URL="mongodb://localhost";//if port is defalut
 
-//const MONGO_URL=process.env.MONGO_URL;
+const MONGO_URL=process.env.MONGO_URL;
 
 async function createConnection(){
 const client=new MongoClient(MONGO_URL);
