@@ -2,6 +2,7 @@ import { mentors } from "./routes/mentor.js";
 import { students } from "./routes/student.js";
 import dotenv from "dotenv";
 import express from "express";
+import cors from "cors";
 import {MongoClient} from "mongodb"; 
 
 dotenv.config();
