@@ -40,7 +40,7 @@ const student=[{
 //const MONGO_URL="mongodb://localhost";//if port is defalut
 
 const MONGO_URL=process.env.MONGO_URL;
-app.use(cors());
+app.use(cors())
 async function createConnection(){
 const client=new MongoClient(MONGO_URL);
 await client.connect();
