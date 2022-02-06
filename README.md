@@ -1,30 +1,30 @@
 # assign-mentor
 
-# Please check out this netlify URL for access the APIs using front end
+Please check out this netlify URL for access the APIs using front end
 
 https://assign-mentor-task.netlify.app/
 
 Please refer the below endpoint documentation 
 
-#Home:
+# Home:
 
 API:https://assign-mentorapi.herokuapp.com/
 
 Home get method endpoint of API
 
-#Get All Students:
+# Get All Students:
 
 End point :https://assign-mentorapi.herokuapp.com/students/
 
 Get method to fetch all the students
 
-#Get All Mentors:
+# Get All Mentors:
 
 End point :http://assign-mentorapi.herokuapp.com/mentors/
 
 Get method to fetch all the Mentors
 
-#Create a Student:
+# Create a Student:
 
 Endpoint :https://assign-mentorapi.herokuapp.com/students/
 
@@ -37,7 +37,7 @@ Body:
   "student_email": "swetha@gmail.com"
 }
 
-#Create a Mentor:
+# Create a Mentor:
 
 Endpoint :https://assign-mentorapi.herokuapp.com/mentors/
 
@@ -50,13 +50,13 @@ Body:
   "skill": "electron.js"
 }
 
-#Students for a particular mentor:
+# Students for a particular mentor:
 
 endpoint :http://assign-mentorapi.herokuapp.com/students/mentor/:id
 
 Get method to fetch all the students for particular mentor
 
-#Update mentor for student:
+# Update mentor for student:
 
 Endpoint :https://assign-mentorapi.herokuapp.com/students/:id
 
@@ -67,13 +67,13 @@ Body:
   "mentor_id": 2
 }
 
-#Student without Mentor:
+# Student without Mentor:
 
 Endpoint :https://assign-mentorapi.herokuapp.com/students/withoutmentor/
 
 Get method to fetch all the students with no mentor
 
-#Update Mentor for multiple student:
+# Update Mentor for multiple student:
 
 Endpoint :https://assign-mentorapi.herokuapp.com/mentors/assignmentor/:id
 
